@@ -8,8 +8,8 @@ export default {
     colors: {
       "white": "#FFFFFF",
       "gray": "#D1D5DB",
-      "light-gray": "#F3F4F6",
-      "dark-gray": "#6B7280",
+      "gray-light": "#F3F4F6",
+      "gray-dark": "#6B7280",
       "black": "#1D1D1D",
       "yellow": "#F2D604",
       "red": "#CB0101",
@@ -20,10 +20,16 @@ export default {
       "blue-dark-2": "#292C3B",
     },
     fontFamily: {
-      "MonaSans": ["MonaSans", "sans-serif"],
-      "JetBrainsMono": ["JetBrains Mono", "monospace"],
+      "monaSans": ["MonaSans", "sans-serif"],
+      "jetBrainsMono": ["JetBrains Mono", "monospace"],
     },
     extend: {
+      borderRadius: {
+        lg: "10px",
+      },
+      fontSize: {
+        xxs: "0.625rem",
+      }
     },
   },
   plugins: [],
