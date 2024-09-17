@@ -7,7 +7,7 @@ const Button = ( { className, children, variants = "primary", ...props }: Button
 
   let variantsStyle= "bg-blue text-white hover:bg-blue-2"
   if (variants === "secondary") {
-    variantsStyle = "bg-white text-blue border border-blue hover:bg-blue/5"
+    variantsStyle = "bg-white text-blue outline outline-1 outline-blue hover:bg-blue/5"
   } else if (variants === "ghost") {
     variantsStyle = "bg-blue/5 text-blue hover:bg-blue/10"
   }

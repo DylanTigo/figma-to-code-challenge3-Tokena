@@ -6,7 +6,7 @@ type IconButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 
 const IconButton = ( { className, icon, variants = "primary", ...props }: IconButtonProps ) => {
 
-  let variantsStyle= "border border-blue"
+  let variantsStyle= "outline outline-1 outline-blue"
   if (variants === "secondary") {
     variantsStyle = ""
   }
