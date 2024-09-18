@@ -1,8 +1,12 @@
 import { Outlet } from "react-router-dom";
+import { AsideMenu } from "./components/AsideMenu";
 
 function App() {
   return (
-    <Outlet />
+    <>
+      <AsideMenu />
+      <Outlet />
+    </>
   );
 }
 

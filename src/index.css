@@ -29,3 +29,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-monaSans bg-white dark:bg-black text-black dark:text-white;
+}
