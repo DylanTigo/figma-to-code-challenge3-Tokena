@@ -11,7 +11,7 @@ const Link = ({ to, children, className }: LinkProps) => {
     <NavLink
       to={to}
       className={({ isActive }) =>
-        "rounded-lg px-3 py-2 flex gap-1.5 items-center text-xs " +
+        "rounded-lg px-3 py-2 flex gap-1.5 items-center text-xs group relative" +
         (isActive
           ? " text-white bg-blue dark:bg-blue/70"
           : " text-black bg-white hover:bg-blue/10 dark:text-white dark:bg-black dark:outline dark:outline-1 dark:outline-black") +

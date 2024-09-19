@@ -30,6 +30,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply font-monaSans bg-white dark:bg-black text-black dark:text-white;
+@layer base {
+  body {
+    @apply font-monaSans bg-white dark:bg-black text-black dark:text-white max-w-[1440px] mx-auto;
+  }
+  svg{
+    @apply stroke-[1.5] size-4.5;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
 }
